@@ -1,3 +1,22 @@
+html, body {
+  height: 100%;
+  background-color: rgb(23 23 23);
+}
+
+#root {
+  height: 100%;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-region {
+  flex: 1;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +54,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.big-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.big-logo img {
+  max-height: 130px;
+  transition: all 0.3s ease;
+}
+
+.app-wrapper {
+  position: relative;
+}
+
+.my-nav .nav-logo {
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.header {
+  background-color: rgb(38 38 38);
+}
+
+.header.pinned .my-nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left:0;
+  right: 0;
+}
+
+.header.pinned .big-logo img {
+  height: 0px;
+}
+
+.header.pinned .my-nav .nav-logo {
+  opacity: 1;
 }
