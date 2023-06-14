@@ -128,7 +128,7 @@ export default function ClientsModal() {
     { name: 'Popular Demand – group', },
     { name: 'Portal – band', },
     { name: 'Steve & Bev Pottmeyer – band', },
-    { name: 'Rulon Poulson/Hill,Bruce /Hill,Lindsey /Hill,Clifford – band', },
+    { name: 'Rulon Poulson Band', },
     { name: 'Psychadelic Diciples – band', },
     { name: 'Rags to Riches Dixieland Band', },
     { name: 'Caleb Rolling', },
@@ -198,7 +198,7 @@ export default function ClientsModal() {
           onClick={() => setOpen(true)}
           ref={openButtonRef}
         >
-          View list of clients
+          View partial list of clients
         </button>
       </div>
       <Transition.Root show={open} as={Fragment}>
@@ -245,7 +245,7 @@ export default function ClientsModal() {
                       </div>
                     </div>
                   </div>
-                  <div className="bg-neutral-800 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                  <div className="bg-neutral-800 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6 sticky bottom-0">
                     <button
                       type="button"
                       className="mt-3 inline-flex w-full justify-center rounded-md bg-neutral-700 px-3 py-2 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-neutral-300 hover:bg-neutral-800 sm:mt-0 sm:w-auto"
