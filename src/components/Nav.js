@@ -18,7 +18,7 @@ export default function Nav() {
   const location = useLocation();
   console.log(location.pathname);
   return (
-    <Disclosure as="nav" className="bg-neutral-800">
+    <Disclosure as="nav" className="bg-neutral-800 round">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
