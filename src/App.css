@@ -94,3 +94,25 @@ html, body {
 .header.pinned .my-nav .nav-logo {
   opacity: 1;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #282c34;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(52, 52, 52);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(23 23 23);
+  border-radius: 8px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(52, 52, 52) rgb(23 23 23);
+}
