@@ -2,7 +2,7 @@ import '../App.css';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import logo from "../media/SoundfieldLong.png";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   window.addEventListener('scroll', () => {
@@ -10,7 +10,7 @@ const Layout = () => {
 
     if (position > 130) {
       document.querySelector('.header').classList.add('pinned')
-    } else if (position == 0) {
+    } else if (position === 0) {
       document.querySelector('.header').classList.remove('pinned')
     }
 
@@ -22,7 +22,7 @@ const Layout = () => {
       <div class="app-wrapper bg-neutral-900">
         <div class="header bg-neutral-800">
           <div class="big-logo mt-6 bg-neutral-800">
-            <img src={logo} />
+            <img src={logo} alt="Soundfield Logo" />
           </div>
           <div class="my-nav">
             <Nav />

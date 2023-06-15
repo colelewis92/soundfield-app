@@ -1,6 +1,6 @@
 import BackButton from "../components/BackButton"
 import ClientsModal from "../components/ClientsModal"
-import image1 from "../media/lyd-150.jpg"
+import image1 from "../media/lyd-150_downsized.jpg"
 
 export default function Clientele() {
   return (
@@ -26,8 +26,7 @@ export default function Clientele() {
               </div>
 
               <div>
-                <img src={image1}
-                  class="w-full rounded-lg shadow-lg dark:shadow-black/20" alt="image" />
+                <img src={image1} class="w-full rounded-lg shadow-lg dark:shadow-black/20" alt="mic" />
               </div>
             </div>
           </div>

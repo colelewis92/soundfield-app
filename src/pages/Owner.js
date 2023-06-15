@@ -1,9 +1,9 @@
 import BackButton from '../components/BackButton'
-import image1 from '../media/steve-7.jpg'
-import image2 from '../media/steve-4.jpg'
-import image3 from '../media/steve-6.jpg'
-import image4 from '../media/steve-1.jpg'
-import image5 from '../media/steve-8.jpg'
+import image1 from '../media/steve-7_downsized.jpg'
+import image2 from '../media/steve-4_downsized.jpg'
+import image3 from '../media/steve-6_downsized.jpg'
+import image4 from '../media/steve-1_downsized.jpg'
+import image5 from '../media/steve-8_downsized.jpg'
 
 export default function Owner() {
   return (

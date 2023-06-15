@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'background-image': "url('./media/lyd-085.jpg')",
+        'background-image': "url('./media/lyd-085_downsized.jpg')",
       }
     },
   },

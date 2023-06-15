@@ -1,9 +1,9 @@
 import React from "react";
-import image1 from '../media/lyd-086.jpg'
-import image2 from '../media/lyd-120.jpg'
-import image3 from '../media/lyd-124.jpg'
-import image4 from '../media/lyd-129-crop.jpg'
-import image5 from '../media/lyd-143.jpg'
+import image1 from '../media/lyd-086_downsized.jpg'
+import image2 from '../media/lyd-120_downsized.jpg'
+import image3 from '../media/lyd-124_downsized.jpg'
+import image4 from '../media/lyd-129-crop_downsized.jpg'
+import image5 from '../media/lyd-143_downsized.jpg'
 import BackButton from "../components/BackButton";
 
 const Equipment = () => {
