@@ -1,8 +1,8 @@
 export default function Footer() {
     return (
-        <footer class="bg-white dark:bg-neutral-900">
-            <div class="px-4 py-6 bg-neutral-100 dark:bg-neutral-800 md:flex md:items-center md:justify-between">
-                <span class="text-sm text-neutral-500 dark:text-neutral-300 sm:text-center">© 2023 <a href="#">Soundfield Recording™</a>. All Rights Reserved.
+        <footer class="bg-neutral-900">
+            <div class="px-4 py-6 bg-neutral-800 md:flex md:items-center md:justify-between">
+                <span class="text-sm text-neutral-500 sm:text-center">© 2023 <a href="#">Soundfield Recording™</a>. All Rights Reserved.
                 </span>
                 <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
                     <a href="https://www.facebook.com/soundfield1/" target="_blank" class="text-neutral-400 hover:text-neutral-900 dark:hover:text-white grid-cols-2">
