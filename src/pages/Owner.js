@@ -9,8 +9,8 @@ export default function Owner() {
   return (
     <section>
       <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Steve Bodner - Audio Engineer</h2>
+        <div class="font-light sm:text-lgtext-gray-400">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Steve Bodner - Audio Engineer</h2>
           <p class="mb-4">Steve Bodner is owner/operator at SRS and has hobbied and dabbled in the recording arts since around 1978. He held previous jobs as electronics technician, service technician, audio engineer, jingle writer and local musician. He had audio recording training at the Recording Workshop (Winter '92) and for many years has hobbied in home hi-fi, home-made "stomp-boxes", and guitar and amplifier modifications.</p>
         </div>
         <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 mt-8">
